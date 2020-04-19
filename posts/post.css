@@ -1,0 +1,13 @@
+#navigation {
+	display:flex;
+}
+
+#navigation, a {
+	display: block;
+}
+
+body {
+	background-color: red;
+}
+
+
