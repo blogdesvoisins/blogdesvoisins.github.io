@@ -20,3 +20,19 @@ header, img {
 body {
 	margin:0;
 }
+
+#navigation {
+	display:flex;
+	justify-content: space-between;
+}
+
+#navigation a {
+	display: block;
+}
+
+
+.gallerie {
+	width:40%;
+	margin: 5px;
+	vertical-align:top;
+}
