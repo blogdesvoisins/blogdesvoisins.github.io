@@ -23,8 +23,6 @@ for file in files:
 	if not name.endswith("_s"):
 		if name + "_s" + ext not in files:
 			to_resize.append(file)
-		else:
-			print(f"{file.name}")
 
 for file in to_resize:
 	im = Image.open(file)
