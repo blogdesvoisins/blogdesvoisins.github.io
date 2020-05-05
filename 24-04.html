@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>Blog d'immeuble - 24/04</title>
 	<link rel="stylesheet" href="base.css">
+	<script src="paroles.js"></script>
+
 
 
 </head>
@@ -15,6 +17,7 @@
 		<nav>
 			<ul>
 				<li><a href="index.html">Accueil</a></li>
+				<li><a href="05-05.html">5 mai</a></li>
 				<li><a href="03-05.html">3 mai</a></li>
 				<li><a href="01-05.html">1er mai</a></li>
 				<li><a href="29-04.html">29 avril</a></li>
@@ -28,9 +31,46 @@
 		</nav>
 		<main>
 			<article>
-				<center><h1><a href="posts/24-04.html">24 avril</a></h1></center>
+				<center><h1><a href="24-04.html">24 avril</a></h1></center>
 				<h2>La chanson de ce soir : Les copains d'abord revisité</h2>
-				<p>Les paroles sont disponibles pour l'instant <a href="https://framapad.lqdn.fr/p/9gac-copainsconfines?lang=fr">ici</a>. Si vous voulez rajoutez des couplets, n'hésitez pas !</p>
+				<button id="paroles_b"></button>
+				<div id="paroles" class="parole"><p>
+					A force de rester enfermé<br>
+					On commence à bien s'emmerder<br>
+					Mais il faut bien perséverer<br>
+					Oui perséverer<br>
+					Ca finira bien par rentrer<br>
+					Qu'il faut rester dans nos foyers<br>
+					Et après viendra l'réconfort<br>
+					Les voisins d'abord<br>
+					<br>
+					En ces temps durs de confinement<br>
+					On chante tous les soirs heureusement <br>
+					C'est ça qui nous fait t'nir le coup <br>
+					Oui tenir le coup<br>
+					A 20h après les bravos<br>
+					Qu'il fasse gris ou bien qu'il fasse beau<br>
+					La chorale des voisins d'abord<br>
+					Les voisins d'abord<br>
+					<br>
+					Quand on sera déconfinés<br>
+					Qu'on pourra plus s'contaminer,<br>
+					On aura tous des anticorps<br>
+					Tous des anticorps.<br>
+					On fêtera ça dans un restau,<br>
+					Avec un bon château Margaux.<br>
+					Et fermons la boît' de Pandore,<br>
+					La boît' de Pandore.<br>
+					<br>
+					Les musiciens de la copro<br>
+					 transpir' tous les soirs sang et eau<br>
+					Pour faire chanter les confinés <br>
+					Sur leur balconnets<br>
+					Ça crée des liens et ça c est  bien<br>
+					On pense à ceux qui sont atteints<br>
+					La copro c est notre sémaphore <br>
+					Les voisins d abord	<br>
+				</p></div>
 				<p>Si vous voulez écouter l'original :</p>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/L9oEcWFjF3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<p>Si vous voulez relire la petite présentation de la chanson, elle est disponible <a href="22-04.html#presentation">ici</a>.</p>
@@ -48,7 +88,9 @@
 
 
 
-
+				<script>
+					bouton_paroles(document.getElementById("paroles"),document.getElementById("paroles_b"));
+				</script>
 				<p>Si vous avez des vidéos, des photos, ou des enregistrements, n'hésitez pas à les envoyer à <a href="mailto:blogdesvoisins@gmail.com">blogdesvoisins@gmail.com</a> !</p>
 
 			</article>
