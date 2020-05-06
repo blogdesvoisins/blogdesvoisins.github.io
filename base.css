@@ -26,9 +26,6 @@ body {
 	justify-content: space-between;
 }
 
-#navigation a {
-	display: block;
-}
 
 
 .gallerie {
@@ -39,4 +36,18 @@ body {
 
 .parole {
 	margin-left: 10%
+}
+
+
+@media all and (max-device-width: 480px) {
+	nav {
+		display: none
+	}
+	button {
+		font-size : 3em;
+	}
+	#navigation {
+		font-size: 250%;
+	}
+
 }
